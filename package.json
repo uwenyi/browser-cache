@@ -1,0 +1,33 @@
+{
+  "name": "browser-cache",
+  "version": "0.0.1",
+  "description": "前端缓存小工具",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "server":  "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uwenyi/browser-cache.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "https://github.com/uwenyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uwenyi/browser-cache/issues"
+  },
+  "homepage": "https://github.com/uwenyi/browser-cache#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

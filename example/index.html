@@ -3,10 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>缓存工具</title>
-    <script src="../release/bundle.js"/>
   </head>
   <body>
     <p>I'm test file</p>
-
+    <script src="../release/bundle.js"></script>
+    <script type="text/javascript" >
+      var BrowserCache = window.BrowserCache
+      var cache = new BrowserCache()
+      cache.set('name','元芳')
+      const res = cache.get('name')
+    </script>
   </body>
 </html>

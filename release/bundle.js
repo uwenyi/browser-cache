@@ -1,1 +1,1 @@
-alert("备好"),console.log("output name");
+window.BrowserCache=class{constructor(){this.list={}}set(s,t){this.list[s]=t}get(s){return this.list[s]}};

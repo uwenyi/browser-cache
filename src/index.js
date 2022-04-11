@@ -1,3 +1,13 @@
-alert('备好')
-let log = "output name"
-console.log(`${log}`)
+class BrowserCache {
+  constructor() {
+    this.list = {}
+  }
+  set(key,value){
+    this.list[key] = value
+  }
+  get(key){
+    return this.list[key]
+  }
+}
+
+window.BrowserCache = BrowserCache

@@ -8,6 +8,9 @@ class BrowserCache {
   get(key){
     return this.list[key]
   }
+  clear(){
+    this.list = {}
+  }
 }
-
-window.BrowserCache = BrowserCache
+export default BrowserCache
+// window.BrowserCache = BrowserCache

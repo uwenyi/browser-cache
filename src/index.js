@@ -8,7 +8,7 @@ class BrowserCache {
   get(key){
     return this.list[key]
   }
-  clear(){
+  clearAll(){
     this.list = {}
   }
 }

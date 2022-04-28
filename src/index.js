@@ -11,6 +11,9 @@ class BrowserCache {
   clearAll(){
     this.list = {}
   }
+  clear(key){
+    delete this.list[key]
+  }
 }
 export default BrowserCache
 // window.BrowserCache = BrowserCache
